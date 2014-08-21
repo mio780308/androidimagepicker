@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88606060">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_content_picture"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#5444" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_content_picture" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Folder"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+	 
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:background="@drawable/checker_background"
+        android:button="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+	<!-- 
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/activatedBackgroundIndicator"/>
+	 -->
+    
+
+</RelativeLayout>

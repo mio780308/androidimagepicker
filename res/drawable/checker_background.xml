@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_checked="true">
+	    <shape android:shape="rectangle" >
+		    <padding
+		        android:left="0dp"
+		        android:top="0dp"
+		        android:right="0dp"
+		        android:bottom="0dp"/>
+		    <solid android:color="#9069"/>
+		    <stroke android:width="@dimen/block_image_padding" android:color="#909c"/>
+		</shape>
+	</item>
+</selector>

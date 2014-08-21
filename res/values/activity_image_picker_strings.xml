@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="image_picker_action_prompt">You have selected a folder</string>    
+	<string name="image_picker_action1">Select this folder</string>
+	<string name="image_picker_action2">Open</string>
+	<string name="image_picker_action_cancel">Cancel</string>
+	
+	<string name="image_picker_action_bar_select_all">Select all</string>
+	<string name="image_picker_action_bar_deselect_all">Deselect all</string>
+	<string name="image_picker_action_bar_finish">Finish</string>
+</resources>

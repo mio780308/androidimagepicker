@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="@dimen/block_image_padding"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/block_image_padding"
+        android:verticalSpacing="@dimen/block_image_padding"
+        tools:listitem="@layout/row_image_picker_item" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height"
+        android:background="#88606060"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/button2"
+            android:background="@drawable/button1"
+            android:padding="5dp"
+            android:text="@string/image_picker_action_bar_select_all"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/button3"
+            android:background="@drawable/button1"
+            android:padding="5dp"
+            android:text="@string/image_picker_action_bar_deselect_all"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button1"
+            android:padding="5dp"
+            android:text="@string/image_picker_action_bar_finish"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+	
+</RelativeLayout>

@@ -1,13 +1,15 @@
-androidimagepicker
+Android multiple image picker
 ==================
 
-an image picker that supports multiple image choosing operation for android platform
+An image picker that supports multiple image choosing operation for android platform.
 
-requires android compatibility library v7 to build
+- requires android compatibility library v7 to build
 
-uses the awesome universal image loader for image loading
+- also uses the awesome universal image loader for image loading
 
-https://github.com/nostra13/Android-Universal-Image-Loader
+  https://github.com/nostra13/Android-Universal-Image-Loader
+
+extra credit:
 
 thanks to Jinal Jogiyani for the path to URI code
 

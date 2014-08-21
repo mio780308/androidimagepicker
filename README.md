@@ -1,7 +1,7 @@
 androidimagepicker
 ==================
 
-an image picker for android platform
+an image picker that supports multiple image choosing operation for android platform
 
 needs android compatibility library v7 to build
 
